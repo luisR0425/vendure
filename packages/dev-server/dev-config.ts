@@ -99,7 +99,7 @@ function getDbConfig(): ConnectionOptions {
                 port: 5432,
                 username: 'admin',
                 password: 'secret',
-                database: 'vendure-dev',
+                database: 'postgres',
             };
         case 'sqlite':
             console.log('Using sqlite connection');
